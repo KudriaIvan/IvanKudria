@@ -17,7 +17,7 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "6733814f91087851cd74650f",
+  "nxCloudId": "67338deb595e4f505d0caf25",
   "targetDefaults": {
     "@angular-devkit/build-angular:application": {
       "cache": true,
@@ -73,7 +73,16 @@
       "linter": "eslint",
       "style": "scss",
       "unitTestRunner": "jest"
+    },
+    "@nx/angular:library": {
+      "linter": "eslint",
+      "unitTestRunner": "jest",
+      "style": "scss",
+      "prefix": "ivankudria"
+    },
+    "@nx/angular:component": {
+      "style": "scss",
+      "prefix": "ivankudria"
     }
-  },
-  "defaultProject": "ivan-kudria"
+  }
 }
